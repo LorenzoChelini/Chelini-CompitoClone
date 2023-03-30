@@ -1,0 +1,30 @@
+   39  nano stampa.cpp
+   40  git config user.email "chelini.lorenzo@itismeucci.com"
+   41  git config user.name  "LorenzoChelini"
+   42  git commit -m "inserito nome"
+   43  g++ stampa.cpp -o stampa
+   44  ./stampa 
+   45  rm stampa
+   46  cat stampa.cpp
+   47  git branch "BugFix"
+   48  git checkout BugFix 
+   49  nano stampa.cpp 
+   50  cat stampa.cpp 
+   51  g++ stampa.cpp -o s
+   52  ./stampa
+   53  g++ stampa.cpp -o stampa
+   54  ./stampa
+   55  ls -a
+   56  rm s
+   57  rm stampa
+   58  nano stampa.cpp
+   59  g++ stampa.cpp -o stampa
+   60  ./stampa
+   61  rm stampa
+   62  git add stampa.cpp 
+   63  git commit -m "errore risolto in stampa"
+   64  git checkout master 
+   65  git merge BugFix 
+   66  cat stampa.cpp 
+   67  git branch -d BugFix 
+   68  history 30 > comandi.txt
